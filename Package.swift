@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "GIO", targets: ["GIO"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/SwiftGObject.git", .branch("master"))
+        .package(url: "https://github.com/Brett-Best/SwiftGObject.git", .branch("bb-pkg-dev"))
     ],
     targets: [
         .target(name: "GIO", dependencies: ["GLibObject"]),
